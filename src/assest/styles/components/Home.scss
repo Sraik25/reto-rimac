@@ -1,0 +1,156 @@
+// .header{
+//   display: none;
+// }
+
+.Formulario {
+  position: absolute;
+  width: 288px;
+  height: 504px;
+  left: 920px;
+  top: 96px;
+  margin-left: 64px;
+}
+
+
+.formulario_description_h2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.2px;
+  color: #494F66;
+  margin-bottom: 8px;
+}
+
+.formulario_description_h2 span {
+  font-weight: 400;
+  color: red;
+}
+
+.formulario_description_h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #676F8F;
+  margin-bottom: 24px;
+}
+
+.Fomulario_contariner {
+  width: 288px;
+  height: 56px;
+  background: #FFFFFF;
+  border: 1px solid #C5CBE0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.formulario__Login--identificacion {
+  /* margin-top: 16px;
+  margin-left: 16px; */
+  width: 51px;
+  height: 24px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.formulario__Login__line {
+  border: 1px solid #C5CBE0;
+  height: 54px; 
+  width: 0px;
+  background-color: #C5CBE0;
+}
+
+.formulario__Login_input {
+  
+  width: 166px;
+  height: 24px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  
+}
+
+.formulario__Login_input:hover {
+  border: none;
+}
+
+.icon__contariner {
+  width: 53px;
+  height: 54px;
+  background-image: url('../../static/images/Vector.svg');
+  background-repeat: no-repeat;
+  background-position: center;;
+}
+
+.fomulario_Fecha_Nacimiento {
+  width: 243px;
+  height: 54px;
+  border: none;
+}
+
+/* .formulario_icon {
+  background: url('/images/Vector.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 13.33px;
+  height: 12px;
+  background-color: red;
+} */
+.formulario_celular {
+  width: 280px;
+  height: 54px;
+  border: none;
+}
+
+.Fomulario_contariner_checks {
+  width: 288px;
+  height: 40px;
+  display: flex;
+  /* margin-bottom: 40px; */
+  /* justify-content: center; */
+}
+
+.Fomulario_contariner_checks label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin-left: 12px;
+  color: #A3ABCC;
+}
+
+.Fomulario_contariner_checks_label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+
+  letter-spacing: 0.2px;
+
+  /* Gray_3 */
+
+  color: #A3ABCC;
+}
+
+.button {
+  margin-top: 40px;
+  width: 176px;
+  height: 56px;
+  background: #F0F2FA;
+  border-radius: 8px;
+  cursor: pointer;
+}

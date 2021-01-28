@@ -1,0 +1,21 @@
+.header_t {
+  width: 374px;
+  height: 64px;
+  background: #EF3340;
+  z-index: 1;
+}
+
+.header__logo_t span {
+  position: absolute;
+  width: 89px;
+  height: 16px;
+  left: 120px;
+  top: 24px;
+  background-image: url('../../static/images/LogoRIMAC.svg');
+  z-index: 1;
+  cursor: pointer;
+} 
+
+.header_t:hover {
+  border-bottom: 1px solid #FC4E55;
+}

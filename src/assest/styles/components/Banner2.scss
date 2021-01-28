@@ -1,0 +1,24 @@
+.banner_t {
+  position: relative;
+  left: 0;
+  top: -64px;
+  width: 376px;
+  height: 768px;
+  background-image: url('../../static/images/Base2.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.banner__illustrationFamily_t {
+  position: absolute;
+  width: 294px;
+  height: 425px;
+  left: 188px;
+  top: 143px;
+  background-image: url('../../static/images/family.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

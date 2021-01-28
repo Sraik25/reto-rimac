@@ -1,0 +1,26 @@
+.header {
+  width: 725px;
+  height: 64px;
+  background: #EF3340;
+  z-index: 1;
+}
+
+.header__logo span {
+  position: absolute;
+  width: 89px;
+  height: 16px;
+  left: 120px;
+  top: 24px;
+  background-image: url('../../static/images/LogoRIMAC.svg');
+
+  z-index: 1
+} 
+
+.header:hover {
+  border-bottom: 1px solid #FC4E55;
+}
+
+.moveHeader {
+  transition: 1s;
+  width: 374px;
+}

@@ -1,0 +1,117 @@
+.banner {
+  position: relative;
+  left: 0;
+  top: -64px;
+  max-width: 100%;
+  width: 728px;
+  height: 608px;
+  background-image: url('../../static/images/Base.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #FFFFFF;
+  z-index: -1;
+}
+
+.banner_tittle {
+  position: absolute;
+  width: 352px;
+  height: 120px;
+  left: 120px;
+  top: 128px;
+}
+
+.banner_tittle--text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.6px;
+}
+
+.banner_tittle--text strong {
+  font-weight: 400;
+
+}
+
+.banner__tags {
+  position: absolute;
+  top: 280px;
+  left: 120px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.banner__tags_item {
+  width: 352px;
+  height: 28px;
+  margin: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.banner__tags_item p {
+  margin-left: 28px;
+}
+.banner__tags_icon1 {
+  padding: 2px 2px 2px 3px;
+  width: 13px;
+  height: 16px;
+  position: absolute;
+  background-image: url('../../static/Icons/ic_shield.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.banner__tags_icon2 {
+  padding: 2px 2px 2px 3px;
+  width: 13px;
+  height: 16px;
+  position: absolute;
+  background-image: url('../../static/Icons/ic_mobile.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.banner__tags_icon3 {
+  padding:3px 1px 3px 1px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+  background-image: url('../../static/Icons/ic_money.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.banner__tags_icon4 {
+  padding-top: 1.66px;
+  padding-right: 0.02px;
+  padding-bottom: 1.68px;
+  width: 19.98px;
+  height: 16.66px;
+  position: absolute;
+  background-image: url('../../static/Icons/ic_clinic.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.banner__illustrationFamily {
+  position: absolute;
+  width: 320px;
+  height: 448px;
+  left: 536px;
+  top: 128px;
+  background-image: url('../../static/images/family.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
